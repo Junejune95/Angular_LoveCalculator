@@ -1,0 +1,1 @@
+export const API_URL = 'https://the-love-calculator.p.rapidapi.com/love-calculator';

@@ -1,0 +1,27 @@
+.container {
+    background: #4eebff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    font-size: 4pc;
+    line-height: 2;
+    text-align: center;
+    font-family: "Rocher";
+    font-palette: --Love;
+    margin: 0;
+}
+
+h1{
+    color: #961f39;
+    font-family: cursive;
+    text-shadow: 0 1px #ff98ae, -1px 0 #ec5f7d, -1px 2px #ff98ae, -2px 1px #ec5f7d, -2px 3px #ff98ae, -3px 2px #ec5f7d, -3px 4px #ff98ae, -4px 3px #ec5f7d;
+}
+
+
+.text-container{
+    max-width: 60%;
+}

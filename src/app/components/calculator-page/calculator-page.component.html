@@ -1,0 +1,36 @@
+<div class="container">
+    <app-header></app-header>
+    <div class="from-container">
+        <form [formGroup]="loveForm">
+            <div class="form-group">
+                <div class="form-border">
+                    <input type="text" formControlName="yourName" placeholder="Your Name">
+                </div>
+            </div>
+
+            <div class="heart-beat">
+                &#9829;
+            </div>
+
+            <div class="form-group">
+                <div class="form-border">
+                    <input type="text" formControlName="crushName" placeholder="Crush Name">
+                </div>
+            </div>
+
+            <button class="btn" type="submit" (click)="onSubmit()">
+                <div class="scale rotate-4">C</div>
+                <div class="scale rotate-3">a</div>
+                <div class="scale rotate-2">l</div>
+                <div class="scale rotate-1">c</div>
+                <div class="scale rotate-4">u</div>
+                <div class="scale rotate-3">l</div>
+                <div class="scale rotate-3">a</div>
+                <div class="scale rotate-1">t</div>
+                <div class="scale rotate-2">o</div>
+                <div class="scale rotate-4">r</div>
+            </button>
+        </form>
+    </div>
+
+</div>
