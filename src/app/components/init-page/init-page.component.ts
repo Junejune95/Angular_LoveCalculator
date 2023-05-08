@@ -26,7 +26,7 @@ export class InitPageComponent implements OnInit,OnDestroy {
       if (el != null) {
         str.length > 0 ? el.innerHTML += str.shift() : this._router.navigate(['love-calculate']);
       }
-    }, 250)
+    }, 180)
 
     // this.running= setTimeout(animate, 90);
   }

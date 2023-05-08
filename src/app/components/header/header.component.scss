@@ -7,6 +7,7 @@
 
 .title {
     display: flex;
+    cursor: pointer;
 }
 
 .word1 {
@@ -35,9 +36,14 @@
 li {
     font-family: cursive;
     color: #ffffff;
-    text-shadow: 0 0 1vw #e70a99, 0 0 1vw #ab0840;
+    text-shadow: 0 0 1vw #d72ea5, 0 0 1vw #ea96ca;
     font-size: 1.5pc;
     margin: 0 14px;
+    cursor: pointer;
+}
+
+li.active {
+    text-decoration: underline;
 }
 
 li:nth-child(2) {

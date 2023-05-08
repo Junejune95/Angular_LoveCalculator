@@ -12,6 +12,8 @@ import { HeaderComponent } from './components/header/header.component';
 import {  HttpClientModule } from '@angular/common/http';
 import { LoadingComponent } from './components/loading/loading.component';
 import { MatchResultComponent } from './components/match-result/match-result.component';
+import { AboutComponent } from './components/about/about.component';
+import { FamousLoveQuoteComponent } from './components/famous-love-quote/famous-love-quote.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { MatchResultComponent } from './components/match-result/match-result.com
     CalculatorPageComponent,
     HeaderComponent,
     LoadingComponent,
-    MatchResultComponent
+    MatchResultComponent,
+    AboutComponent,
+    FamousLoveQuoteComponent
   ],
   imports: [
     BrowserModule,

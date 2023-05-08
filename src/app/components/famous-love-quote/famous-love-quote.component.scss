@@ -1,0 +1,25 @@
+ul{
+    list-style: none;
+    font-size: 1.5pc;
+    color: #f43678;
+    font-family: cursive;
+}
+
+li{
+    line-height: 3;
+}
+
+
+
+ul>li::before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url('../../../assets/images/heart-icon.png');
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    background-position: center center;
+    vertical-align: middle;
+  }
