@@ -11,6 +11,7 @@ import { ServiceService } from 'src/app/services/service.service';
 })
 export class CalculatorPageComponent implements OnInit, OnDestroy {
   private subscription: Subscription;
+  public isLoading:boolean=false;
 
   public loveForm = this.fb.group({
     yourName: ['', Validators.required],
@@ -27,12 +28,16 @@ export class CalculatorPageComponent implements OnInit, OnDestroy {
     if (this.loveForm.valid == false) {
       return;
     }
+    this.isLoading=true;
     const temp: InputForm = {
       fname: this.loveForm.value.yourName!,
       sname: this.loveForm.value.crushName!
     }
     this.subscription = this._service.getMatch(temp).subscribe((result) => {
-      console.log(result)
+      console.log(result);
+      setTimeout(() => {
+        this.isLoading=false;
+      }, 3000);
     });
   }
 

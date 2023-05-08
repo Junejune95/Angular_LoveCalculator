@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { API_URL } from 'src/app/interfaces/constants';
 import { InputForm } from 'src/app/interfaces/form';
-
+import { rapidkey } from "src/key";
 @Injectable({
   providedIn: 'root'
 })
@@ -23,7 +23,7 @@ export class ServiceService {
     return this._http.get(API_URL,{
       params:queryParams,
       headers: new HttpHeaders({
-        'X-RapidAPI-Key': '',  //Enter Your RapidAPI Key
+        'X-RapidAPI-Key': rapidkey,  //Enter Your RapidAPI Key
         'X-RapidAPI-Host': 'the-love-calculator.p.rapidapi.com'
       })
     });

@@ -10,13 +10,15 @@ import { InitPageComponent } from './components/init-page/init-page.component';
 import { CalculatorPageComponent } from './components/calculator-page/calculator-page.component';
 import { HeaderComponent } from './components/header/header.component';
 import {  HttpClientModule } from '@angular/common/http';
+import { LoadingComponent } from './components/loading/loading.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InitPageComponent,
     CalculatorPageComponent,
-    HeaderComponent
+    HeaderComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,

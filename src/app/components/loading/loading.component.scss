@@ -1,0 +1,70 @@
+.container {
+    height: 100%;
+    background-color: #e91e63;
+    animation: zoom-out 4s ease-in-out;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.heart-beat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 10rem;
+    color: #fdbdd3;
+    animation: heartbeat2 5s infinite;
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px #ffffffb8, 0 0 20px #ffffffb8, 0 0 40px #ffffffb8;
+}
+
+
+@keyframes heartbeat2 {
+    0% {
+        transform: scale(1);
+    }
+
+
+    40% {
+        transform: scale(2);
+    }
+    60% {
+        color: #e91e63;
+
+        transform: scale(2.5);
+
+    }
+    80% {
+        transform: scale(3);
+    }
+
+    100% {
+        transform: scale(3.5);
+    }
+}
+
+@keyframes zoom-out {
+    0% {
+        transform: scale(0.5);
+        background-color: unset;
+    }
+
+    30% {
+
+        transform: scale(1);
+        background-color: unset;
+    }
+
+    70% {
+
+        transform: scale(1.5);
+        background-color: unset;
+    }
+
+    100% {
+        transform: scale(2);
+    }
+}
+
+
