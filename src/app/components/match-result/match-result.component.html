@@ -1,0 +1,23 @@
+
+<div class="container">
+    <app-header></app-header>
+    <div class="match-container">
+        <div class="image" *ngIf="matchData['percentage match: '] as percentage">
+           <img *ngIf="percentage > 0 && percentage < 30" src="assets/images/sad30.gif" />
+           <img *ngIf="percentage > 30 && percentage < 50" src="assets/images/sad50.gif" />
+           <img *ngIf="percentage > 50 && percentage < 70" src="assets/images/love50.gif" />
+           <img *ngIf="percentage > 70 && percentage < 90" src="assets/images/love70.gif" />
+           <img *ngIf="percentage >= 90" src="assets/images/love90.gif" />
+        </div>
+        <div class="result-container">
+            <span>{{matchData['first name: ']}}</span> and <span>{{matchData['second name: ']}}</span> are <div class="percent">{{matchData['percentage match: ']}}%</div>
+            <span> {{matchData['result: ']}} </span>
+        </div>
+
+        <button class="btn" type="button" (click)="calculateAgain()">
+            Make Another Calculation
+        </button>
+    </div>
+
+   
+</div>

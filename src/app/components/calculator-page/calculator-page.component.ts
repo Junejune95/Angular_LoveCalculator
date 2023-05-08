@@ -1,5 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { InputForm } from 'src/app/interfaces/form';
 import { ServiceService } from 'src/app/services/service.service';
@@ -18,7 +19,7 @@ export class CalculatorPageComponent implements OnInit, OnDestroy {
     crushName: ['', Validators.required]
   });
 
-  constructor(private fb: FormBuilder, private _service: ServiceService) { }
+  constructor(private fb: FormBuilder, private _service: ServiceService,private _router:Router) { }
 
   ngOnInit(): void {
   }
@@ -34,12 +35,17 @@ export class CalculatorPageComponent implements OnInit, OnDestroy {
       sname: this.loveForm.value.crushName!
     }
     this.subscription = this._service.getMatch(temp).subscribe((result) => {
-      console.log(result);
+      localStorage.setItem('calculateData',JSON.stringify(result));
       setTimeout(() => {
         this.isLoading=false;
-      }, 3000);
+        this._router.navigate(['love-result']);
+      }, 2600);
+  
     });
+  
   }
+
+
 
   ngOnDestroy(): void {
     if (this.subscription) this.subscription.unsubscribe();

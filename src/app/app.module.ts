@@ -11,6 +11,7 @@ import { CalculatorPageComponent } from './components/calculator-page/calculator
 import { HeaderComponent } from './components/header/header.component';
 import {  HttpClientModule } from '@angular/common/http';
 import { LoadingComponent } from './components/loading/loading.component';
+import { MatchResultComponent } from './components/match-result/match-result.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LoadingComponent } from './components/loading/loading.component';
     InitPageComponent,
     CalculatorPageComponent,
     HeaderComponent,
-    LoadingComponent
+    LoadingComponent,
+    MatchResultComponent
   ],
   imports: [
     BrowserModule,
