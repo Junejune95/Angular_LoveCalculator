@@ -28,7 +28,7 @@ Then run `ng serve` to start a dev server. Navigate to http://localhost:4200/. T
 ![Result](https://github.com/Junejune95/Angular_LoveCalculator/blob/main/src/assets/images/match-result.gif)
 
 
-#Refrence Here
+# Refrence Here
 
 (Heartbeat Animation with pure css using @keyframes)[https://codepen.io/juneJune_95/pen/LYdyEpK]
 
