@@ -9,7 +9,7 @@ I developed this project for practise Angular and SCSS.
 - I didn't use third party library like bootstrap,Angular material etc.,
 - I use simple javascript function and @keyframes in css for animation.
 - I use media query for responsive.
-- I use (ReactiveFormsModule)[https://angular.io/api/forms/ReactiveFormsModule]
+- I use [ReactiveFormsModule](https://angular.io/api/forms/ReactiveFormsModule)
 
 # Installation
 
@@ -30,7 +30,7 @@ Then run `ng serve` to start a dev server. Navigate to http://localhost:4200/. T
 
 # Refrence Here
 
-(Heartbeat Animation with pure css using @keyframes)[https://codepen.io/juneJune_95/pen/LYdyEpK]
+  [Heartbeat Animation with pure css using @keyframes](https://codepen.io/juneJune_95/pen/LYdyEpK)
 
 
 
