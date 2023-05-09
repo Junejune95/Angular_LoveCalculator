@@ -17,7 +17,7 @@ Run `npm install` to install all the required dependencies.
 ```
   Need to add the your `X-RapidAPI-Key` in Httpheaders.I used the free API from [The Love Calculator From Rapid API](https://rapidapi.com/marchingtonoliver/api/the-love-calculator) to calculate the love match percentage.
 ```
-<img src="assets/images/rapid-api.png" width="128"/>
+![Result](https://github.com/Junejune95/Angular_LoveCalculator/blob/main/src/assets/images/rapid-api.png)
 
 Then run `ng serve` to start a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
@@ -25,7 +25,7 @@ Then run `ng serve` to start a dev server. Navigate to http://localhost:4200/. T
 
 ![Match Form](https://github.com/Junejune95/Angular_LoveCalculator/blob/main/src/assets/images/love-calculate.gif)
 
-<img src="assets/images/match-result.gif" width="128"/>
+![Result](https://github.com/Junejune95/Angular_LoveCalculator/blob/main/src/assets/images/match-form.gif)
 
 
 
