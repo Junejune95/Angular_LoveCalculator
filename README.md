@@ -9,6 +9,7 @@ I developed this project for practise Angular and SCSS.
 - I didn't use third party library like bootstrap,Angular material etc.,
 - I use simple javascript function and @keyframes in css for animation.
 - I use media query for responsive.
+- I use (ReactiveFormsModule)[https://angular.io/api/forms/ReactiveFormsModule]
 
 # Installation
 
