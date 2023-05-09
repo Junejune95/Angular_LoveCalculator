@@ -1,27 +1,34 @@
 # LoveCalculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+This project is Love Calculator.It is written by me.It is just a fun don't take the serious.
 
-## Development server
+# Description
+I developed this project for practise Angular and SCSS.
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+- I developed with animation,creative button and text box.
+- I didn't use third party library like bootstrap,Angular material etc.,
+- I use simple javascript function and @keyframes in css for animation.
+- I use media query for responsive.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Installation
 
-## Code scaffolding
+Run `npm install` to install all the required dependencies.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+    Need to add the your `X-RapidAPI-Key` in Httpheaders.I used the free API from [The Love Calculator From Rapid API](https://rapidapi.com/marchingtonoliver/api/the-love-calculator)to calculate the love match percentage.
+```
+<img src="assets/images/rapid-api.png" width="128"/>
 
-## Build
+Then run `ng serve` to start a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Screenshots & Overview
 
-## Running unit tests
+<img src="assets/images/love-calculator.gif" width="128"/>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<img src="assets/images/match-result.gif" width="128"/>
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
