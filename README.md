@@ -15,7 +15,7 @@ I developed this project for practise Angular and SCSS.
 Run `npm install` to install all the required dependencies.
 
 ```
-    Need to add the your `X-RapidAPI-Key` in Httpheaders.I used the free API from [The Love Calculator From Rapid API](https://rapidapi.com/marchingtonoliver/api/the-love-calculator)to calculate the love match percentage.
+  Need to add the your `X-RapidAPI-Key` in Httpheaders.I used the free API from [The Love Calculator From Rapid API](https://rapidapi.com/marchingtonoliver/api/the-love-calculator) to calculate the love match percentage.
 ```
 <img src="assets/images/rapid-api.png" width="128"/>
 
@@ -23,7 +23,7 @@ Then run `ng serve` to start a dev server. Navigate to http://localhost:4200/. T
 
 # Screenshots & Overview
 
-<img src="assets/images/love-calculator.gif" width="128"/>
+![Match Form](http://url/to/img.png](https://github.com/Junejune95/Angular_LoveCalculator/blob/main/src/assets/images/love-calculate.gif)
 
 <img src="assets/images/match-result.gif" width="128"/>
 
