@@ -23,7 +23,7 @@ Then run `ng serve` to start a dev server. Navigate to http://localhost:4200/. T
 
 # Screenshots & Overview
 
-![Match Form](http://url/to/img.png](https://github.com/Junejune95/Angular_LoveCalculator/blob/main/src/assets/images/love-calculate.gif)
+![Match Form](https://github.com/Junejune95/Angular_LoveCalculator/blob/main/src/assets/images/love-calculate.gif)
 
 <img src="assets/images/match-result.gif" width="128"/>
 
